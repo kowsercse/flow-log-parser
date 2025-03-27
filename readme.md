@@ -17,6 +17,14 @@ Code is written on `flow.log.FlowLogParserTest` test class.
     * Writes the tag count to csv file
 * No javadoc added
 
+## Assumption
+
+Protocol is mapped to following values:
+
+* TCP: 6
+* UDP: 17
+* ICMP: 1
+
 ### Considerations
 
 Very naive implementation to parse log files.
